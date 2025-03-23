@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1 Praktikum</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <h1 class="text-2xl font-bold text-center mb-4">Tugas 1 Praktikum</h1>
+
+        <!-- To-Do List -->
+        <hr class="my-4">
+        <h2 class="text-xl font-bold">To-Do List</h2>
+        <div class="flex gap-2 mt-2">
+            <input type="text" id="todo-input" placeholder="Tambahkan tugas" class="border p-2 rounded flex-1">
+            <button id="btn-tambah-todo" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Tambah</button>
+        </div>
+        <ul id="todo-list" class="list-none p-0 mt-3"></ul>
+
+        <!-- Kalkulator -->
+        <hr class="my-4">
+        <h2 class="text-xl font-bold">Kalkulator</h2>
+        <div class="flex gap-2 mt-2">
+            <input type="number" id="angka1" placeholder="Angka 1" class="border p-2 rounded flex-1">
+            <input type="number" id="angka2" placeholder="Angka 2" class="border p-2 rounded flex-1">
+        </div>
+        <div class="flex gap-2 mt-2">
+            <button id="btn-tambah">+</button>
+            <button id="btn-kurang">-</button>
+            <button id="btn-kali">×</button>
+            <button id="btn-bagi">÷</button>
+            <button id="btn-pangkat">^</button>
+            <button id="btn-akar">√</button>
+            <button id="btn-modulus">%</button>
+        </div>
+        <div id="hasil-kalkulator" class="mt-3 font-semibold"></div>
+
+        <!-- Validasi Form -->
+        <hr class="my-4">
+        <h2 class="text-xl font-bold">Validasi Form</h2>
+        <input type="text" id="form-nama" placeholder="Nama" class="border p-2 rounded w-full mb-2">
+        <input type="email" id="form-email" placeholder="Email" class="border p-2 rounded w-full mb-2">
+        <input type="password" id="form-password" placeholder="Password" class="border p-2 rounded w-full mb-2">
+        <button id="btn-validasi" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Validasi</button>
+        <div id="form-output" class="mt-3"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
