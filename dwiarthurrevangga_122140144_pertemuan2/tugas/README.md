@@ -8,28 +8,30 @@ Student Task Manager adalah aplikasi dashboard personal yang membantu mahasiswa 
 
 ## ✨ Fitur Utama
 
-### 🎯 Manajemen Tugas
-| Fitur | Deskripsi |
-|-------|-----------|
-| ✅ Tambah Tugas | Input judul, deadline, dan prioritas |
-| ✅ Tandai Selesai | Klik untuk toggle status |
-| 🗑️ Hapus Tugas | Hapus tugas yang tidak relevan |
-| 🚨 Prioritas | Sistem 3-level (High/Medium/Low) |
-| 📊 Statistik | Hitungan tugas total dan mendesak |
+### 📌 Manajemen Tugas
+- Tambah tugas baru dengan judul, deadline, dan prioritas
+- Tandai tugas sebagai **selesai** atau **belum**
+- Hapus tugas yang sudah tidak relevan
+- Prioritas tugas (**High**, **Medium**, **Low**) ditandai dengan warna berbeda
+- Statistik tugas: total tugas dan jumlah tugas dengan prioritas tinggi
 
-### 🏫 Manajemen Jadwal Kelas
-| Fitur | Deskripsi |
-|-------|-----------|
-| ➕ Tambah Jadwal | Input mata kuliah, dosen, waktu, ruang |
-| ✏️ Edit Jadwal | Modal form untuk perubahan |
-| ❌ Hapus Jadwal | Konfirmasi sebelum penghapusan |
+### 🗓️ Manajemen Jadwal Kelas
+- Tambah jadwal kelas dengan detail lengkap (nama mata kuliah, dosen, hari, waktu, ruangan)
+- Edit jadwal kelas yang sudah ada
+- Hapus jadwal kelas
+- Tampilan terorganisir berdasarkan hari dalam seminggu
 
-### 🛠️ Fitur Teknis
-```javascript
-{
-  "Penyimpanan": "LocalStorage",
-  "Responsif": "Mobile & Desktop",
-  "Waktu": "Live Clock",
-  "Persistensi": "Data tetap tersimpan"
-}
-```
+### 🔧 Fitur Tambahan
+- Penyimpanan lokal menggunakan **localStorage** (data tetap tersimpan saat browser ditutup)
+- Tampilan waktu **real-time**
+- Antarmuka **responsif** yang bekerja di berbagai perangkat
+
+---
+
+## 🧠 Fitur ES6+ yang Diimplementasikan
+
+- **Arrow Functions**  
+  Digunakan untuk metode kelas dan event handlers  
+  ```js
+  loadTasks = () => {...}
+  handleAddTask = (e) => {...}
