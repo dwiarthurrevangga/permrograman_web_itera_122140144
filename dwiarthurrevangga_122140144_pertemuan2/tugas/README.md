@@ -35,3 +35,4 @@ Student Task Manager adalah aplikasi dashboard personal yang membantu mahasiswa 
   ```js
   loadTasks = () => {...}
   handleAddTask = (e) => {...}
+  ```
