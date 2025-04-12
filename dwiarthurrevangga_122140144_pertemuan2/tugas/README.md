@@ -1,16 +1,10 @@
 # Student Task Manager - Personal Dashboard
 
-Student Task Manager adalah aplikasi dashboard personal yang membantu mahasiswa mengorganisir tugas-tugas kuliah dan jadwal kelas mereka. Aplikasi ini menyediakan antarmuka yang sederhana namun powerful untuk mengelola aktivitas akademik sehari-hari.
-
 ![Screenshot 2025-04-13 000702](https://github.com/user-attachments/assets/6585330d-6edf-4e7f-a1b3-274ce428fb7a)
 
 ## 📝 Deskripsi Aplikasi
 
-Student Task Manager adalah aplikasi dashboard personal berbasis web yang membantu mahasiswa mengorganisir:
-- 📋 Daftar tugas kuliah
-- 🕒 Jadwal kelas harian
-- ⏰ Deadline tugas
-- 📌 Prioritas aktivitas
+Student Task Manager adalah aplikasi dashboard personal yang membantu mahasiswa mengorganisir tugas-tugas kuliah dan jadwal kelas mereka. Aplikasi ini menyediakan antarmuka yang sederhana namun powerful untuk mengelola aktivitas akademik sehari-hari.
 
 ## ✨ Fitur Utama
 
@@ -29,7 +23,6 @@ Student Task Manager adalah aplikasi dashboard personal berbasis web yang memban
 | ➕ Tambah Jadwal | Input mata kuliah, dosen, waktu, ruang |
 | ✏️ Edit Jadwal | Modal form untuk perubahan |
 | ❌ Hapus Jadwal | Konfirmasi sebelum penghapusan |
-| 📅 Tampilan Harian | Grup jadwal per hari |
 
 ### 🛠️ Fitur Teknis
 ```javascript
@@ -39,3 +32,4 @@ Student Task Manager adalah aplikasi dashboard personal berbasis web yang memban
   "Waktu": "Live Clock",
   "Persistensi": "Data tetap tersimpan"
 }
+```
