@@ -42,18 +42,19 @@ npm test
 
 ---
 
-## 🖼️ Screenshot Antarmuka
+## 🖼️ Screenshot 
 
-Berikut tampilan antarmuka aplikasi:
-
-### Beranda
-![Beranda](./public/screenshots/home.png)
+### Home
+![Home](./public/screenshots/home.png)
 
 ### Tambah Buku
 ![Tambah Buku](./public/screenshots/addbook.png)
 
 ### Edit Buku
 ![Edit Buku](./public/screenshots/editbook.png)
+
+### Hasil Testing
+![Hasil Testing](./public/screenshots/unittest.png)
 
 > 💡 Catatan: Letakkan gambar screenshot di folder `public/screenshots` atau `src/assets/screenshots` dan sesuaikan path-nya di atas jika perlu.
 
