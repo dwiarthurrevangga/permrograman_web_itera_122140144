@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: #f0f2f5;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button, .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px 18px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
+  .book-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .book-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .book-item p {
+    color: #555;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filter {
+    margin: 20px 0;
+    text-align: right;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .top-bar input {
+    width: 70%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .book-item .btn.secondary {
+    background-color: #ffc107;
+  }
+  
+  .book-item .btn.secondary:hover {
+    background-color: #e0a800;
+  }
+  
+  .book-item .btn.danger {
+    background-color: #dc3545;
+  }
+  
+  .book-item .btn.danger:hover {
+    background-color: #c82333;
+  }
+  
+  @media (max-width: 768px) {
+    .top-bar {
+      flex-direction: column;
+    }
+  
+    .top-bar input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .filter {
+      text-align: left;
+    }
+  }
+
+input, select, button {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input:focus, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .book-item {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  button:hover {
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
